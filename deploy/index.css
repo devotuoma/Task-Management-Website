@@ -1,0 +1,68 @@
+/* Style your web page here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center; /* Center align text within the container */
+}
+
+.center {
+    text-align: center; /* Center align text */
+}
+
+/* Rest of the CSS remains the same */
+
+/* Updated styles for better readability */
+.task-form input,
+.task-form button {
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-list {
+    text-align: left;
+}
+
+.task-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Updated background color on hover */
+.task-item:hover {
+    background-color: #e9e9e9;
+}
+
+.task-status {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
