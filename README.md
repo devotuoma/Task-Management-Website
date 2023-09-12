@@ -30,3 +30,5 @@ The website uses a switch statement to handle task status changes when users int
 
 Try-Catch-Finally Statement
 While not demonstrated in the provided code, try-catch-finally statements are vital for handling potential errors, especially in complex operations like data fetching from a server. 
+
+I have deployed the website on firebase.
